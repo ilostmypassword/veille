@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+    <title>ꙅwɘͶ TꟼA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div>
+        <img src="{{ url_for('static', filename='css/can.gif') }}" height="300" width="300" align="left" >
+        <img src="{{ url_for('static', filename='css/can2.gif') }}" height="300" width="300" align="right">
+    </div>
+    <pre>
+        (`-.      ('-.                                  ('-.   
+        _(OO  )_  _(  OO)                               _(  OO)  
+    ,--(_/   ,. \(,------.  ,-.-')  ,--.      ,--.     (,------. 
+    \   \   /(__/ |  .---'  |  |OO) |  |.-')  |  |.-')  |  .---' 
+     \   \ /   /  |  |      |  |  \ |  | OO ) |  | OO ) |  |     
+      \   '   /, (|  '--.   |  |(_/ |  |`-' | |  |`-' |(|  '--.  
+       \     /__) |  .--'  ,|  |_.'(|  '---.'(|  '---.' |  .--'  
+        \   /     |  `---.(_|  |    |      |  |      |  |  `---. 
+         `-'      `------'  `--'    `------'  `------'  `------'   
+
+</pre>
+
+    <h3>░▒▓█►─═ ค𝐝𝐕𝐀𝓝匚ｅ𝔻 Ƥⓔｒş𝓘s𝔱𝓔𝓷t ţ𝐡я𝓔αt ═─◄█▓▒░</h3>
+
+    <br>
+
+    <div class="box">
+        <form method="POST" action="{{ url_for('index') }}">
+            <label for="year">Année :</label>
+            <input type="text" id="year" name="year">
+            <input type="submit" name="run" value="=>">
+        </form>
+        {% if links %}
+        <pre>
+            {% for link in links %}
+              <a href="{{ link }}">{{ link }}</a><br>
+            {% endfor %}
+          </pre>
+        {% endif %}
+    </div>
+    <img src="{{ url_for('static', filename='css/can3.gif') }}" height="100" width="100" align="left" >
+    <img src="{{ url_for('static', filename='css/can3.gif') }}" height="100" width="100" align="right">
+
+</body>
+
+<img src="{{ url_for('static', filename='css/honk.png') }}" alt="honk" width="490" height="355">
+
+<img src="{{ url_for('static', filename='css/can4.gif') }}" height="100" width="100" align="left" >
+<img src="{{ url_for('static', filename='css/can4.gif') }}" height="100" width="100" align="right">
+
+
+</html>
