@@ -29,7 +29,7 @@ Ma veille technologique se base sur les données collectées par le collectif VX
 
 L'utilisateur entre une année de publication et recevra un fichier csv comportant tous les articles techniques de l'année relatifs à l'étude des APT ainsi qu'un lien de téléchargement vers les dits PDF.
 
-![[schema.png]]
+![Alt text](schema.png)
 
 
 #### Installation :
