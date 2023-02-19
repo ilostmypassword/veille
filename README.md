@@ -58,6 +58,7 @@ L'utilisateur entre une année de publication et recevra un fichier csv comporta
 #### Remerciements : 
 
 **VX Underground Staff:**
+
 Founder and manager: smelly  
 Malware sample curation: Petik  
 APT sample curation: f0wl  
