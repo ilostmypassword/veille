@@ -34,6 +34,8 @@ L'utilisateur entre une année de publication et recevra un fichier csv comporta
 
 #### Installation :
 
+- git clone https://github.com/ilostmypassword/veille.git
+- cd veille
 - pip3 install -r requirements.txt
 
 
